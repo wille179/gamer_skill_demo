@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 389544122}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.121866494
+  m_Size: 0.3574361
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1767,7 +1767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 688.8441}
+  m_AnchoredPosition: {x: 0, y: 688.7001}
   m_SizeDelta: {x: 0, y: 1071.8}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1095908381
@@ -2025,6 +2025,7 @@ GameObject:
   - component: {fileID: 1264265907}
   - component: {fileID: 1264265906}
   - component: {fileID: 1264265905}
+  - component: {fileID: 1264265908}
   m_Layer: 0
   m_Name: The Player
   m_TagString: Player
@@ -2081,6 +2082,7 @@ MonoBehaviour:
   WIS_exp: 0
   END_exp: 0
   equips: {fileID: 0}
+  skills: {fileID: 0}
 --- !u!4 &1264265907
 Transform:
   m_ObjectHideFlags: 0
@@ -2094,6 +2096,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264265908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264265904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96beb93f80b4aa9488234cc0cbaeb91d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1286924655
 GameObject:
   m_ObjectHideFlags: 0
